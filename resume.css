@@ -1,0 +1,133 @@
+*{
+    padding : 0px;
+    margin : 0px;
+}
+#resume{
+    display : grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+/* utility classes */
+.center{
+    text-align: center;
+}
+.h_pri1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.h_sec1{
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin : 0px 3px; padding: 0px;
+}
+
+
+/* CSS for first section */
+#partA{
+    background-color:darkcyan;
+    color:white;
+    border-radius: 10px;
+    margin : 0px 0px 0px 30px;
+}
+
+#name{
+    padding : 10px;
+    margin : 50px 0px 20px 0px;
+    background-color: white;
+    color : black;
+    border-radius: 10px;
+}
+
+.bodySecA{
+    font-size: 16px;
+    padding : 0px;
+    margin : 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.bodySecA a{
+    font-size: 16px;
+    padding : 0px;
+    margin-left : 6px ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:white;
+    /* text-decoration: none; */
+}
+
+.bodySecA p{
+    margin : 4px; 
+    padding : 0px;
+}
+
+.bodySecA li{
+    margin : 20px 5px;
+    list-style: none;
+}
+
+/* css for section B */
+
+#partB{
+    margin-top: 126px;
+    margin-left: 10px;
+}
+
+#partB > div{
+    margin-bottom: 30px;
+}
+
+bodySecB{
+    font-size: 16px;
+    padding : 0px;
+    margin : 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.bodySecB p{
+    margin : 4px; 
+    padding : 0px;
+}
+.bodySecB li{
+    margin: 2px;
+    padding: 1px;
+    list-style: none;
+}
+
+#education_table {
+    display : grid;
+    grid-template-columns: 1fr 4fr 2fr 2fr;
+    margin : 4px;
+    padding : 0px;
+}
+.table_head{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#education_table div{
+    padding : 6px;
+    margin : 1px;
+}
+#achievements li{
+    margin: 2px;
+    padding: 1px;
+} 
+#achievements ul li ul {
+    margin-left:30px;
+}
+
+
+
+footer{
+    background-color: black;
+    color:white;
+    text-align : center;
+    height : 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
